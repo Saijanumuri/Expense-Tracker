@@ -1,3 +1,7 @@
+body{
+  background-color: #3b3b3b;
+  color: white;
+}
 .balancediv {
   background-color: #626262;
   width: 1211px;
@@ -27,4 +31,12 @@
   border: none;
   background-color: #EFEFEF;
   border-radius: 15px;
+}
+.expenselist{
+  width: 738.33px;
+  height: max-content;
+  border: 1px solid #9B9B9B;
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
 }
