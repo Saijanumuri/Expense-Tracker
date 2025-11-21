@@ -38,7 +38,7 @@ function Wallet_balance_display() {
                         }
                     }}
                 >
-                    <p style={{ fontFamily: "Ubuntu", fontWeight: 700, fontSize: "30px" }}>
+                    <p style={{ fontFamily: "Ubuntu", fontWeight: 700, fontSize: "30px",color:"black" }}>
                         Add Balance
                     </p>
 
