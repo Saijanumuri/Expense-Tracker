@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Modal from 'react-modal';
+import WalletContext from './WalletContext';
+Modal.setAppElement('#root');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <WalletContext>
     <App />
-  </React.StrictMode>
+  </WalletContext>
 );
 
 // If you want to start measuring performance in your app, pass a function
