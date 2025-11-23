@@ -64,7 +64,7 @@ function Expense_form() {
             <p style={{ fontFamily: "Ubuntu", fontWeight: 400, fontSize: "30px" }}>
                 Expenses: <span style={{ color: "#F4BB4A", fontFamily: "Ubuntu", fontWeight: 700, fontSize: "30px" }}>₹{totalExpense}</span>
             </p>
-            <button id="add-income-btn" type="button" onClick={() => setIsOpen(true)} style={{ width: "167.65px", height: "38px", borderRadius: "15px", fontFamily: "Ubuntu", fontWeight: 700, fontSize: "16px", color: "white", backgroundColor: "#FF4747", border: "none " }}>+ Add Expense</button>
+            <button id="add-expense-btn" type="button" onClick={() => setIsOpen(true)} style={{ width: "167.65px", height: "38px", borderRadius: "15px", fontFamily: "Ubuntu", fontWeight: 700, fontSize: "16px", color: "white", backgroundColor: "#FF4747", border: "none " }}>+ Add Expense</button>
             <Modal isOpen={isOpen}
                 onRequestClose={() => setIsOpen(false)}
                 style={{
