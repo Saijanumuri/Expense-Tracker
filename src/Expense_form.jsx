@@ -89,7 +89,7 @@ function Expense_form() {
                     <input style={{ fontFamily: "Open Sans", fontSize: "16px", fontWeight: 400, width: "223px", height: "51px", borderRadius: "15px", border: "none" }} placeholder="Title" name="title" value={form.title} onChange={handlechage} />
                     <input style={{ fontFamily: "Open Sans", fontSize: "16px", fontWeight: 400, width: "223px", height: "51px", borderRadius: "15px", border: "none" }} placeholder="Price" name="price" value={form.price} onChange={handlechage} />
                     <select name="category" style={{ fontFamily: "Open Sans", fontSize: "16px", fontWeight: 400, width: "223px", height: "51px", borderRadius: "15px", border: "none" }} value={form.category} onChange={handlechage}>
-                        <option value="" selected>Select Category</option>
+                        
                         <option value="Food">Food</option>
                         <option value="Entertainment">Entertainment</option>
                         <option value="Travel">Travel</option>
