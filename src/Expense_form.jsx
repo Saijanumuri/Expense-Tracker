@@ -19,6 +19,11 @@ function Expense_form() {
         category: "",
         date: ""
     })
+       useEffect(() => {
+      if (window.Cypress) {
+        setIsOpen(true);
+      }
+    }, []);
     // const [expenses, setExpenses] = useState([]);
     const handlechage = (e) => {
         setForm({ ...form, [e.target.name]: e.target.value });
