@@ -141,7 +141,7 @@ function Wallet_balance_display() {
                             fontFamily: "Open Sans"
                         }}
                     >
-                        Add Amount
+                        Add Balance
                     </button>
 
                     <button
