@@ -18,7 +18,7 @@ function Wallet_balance_display() {
                 <p style={{ fontFamily: "Ubuntu", fontWeight: 400, fontSize: "30px" }}>
                     Wallet Balance: <span style={{ color: "#9DFF5B", fontFamily: "Ubuntu", fontWeight: 700, fontSize: "30px" }}>₹{walbal}</span>
                 </p>
-                <button type="button" onClick={() => setIsOpen(true)} style={{ width: "167.65px", height: "38px", borderRadius: "15px", fontFamily: "Ubuntu", fontWeight: 700, fontSize: "16px", color: "white", backgroundColor: "#B5DC52", border: "none " }}>+ Add Income</button>
+                <button id="add-income-btn" type="button" onClick={() => setIsOpen(true)} style={{ width: "167.65px", height: "38px", borderRadius: "15px", fontFamily: "Ubuntu", fontWeight: 700, fontSize: "16px", color: "white", backgroundColor: "#B5DC52", border: "none " }}>+ Add Income</button>
 
                 <Modal
                     isOpen={isOpen}
