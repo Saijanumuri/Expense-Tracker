@@ -38,5 +38,5 @@ body{
   border: 1px solid #9B9B9B;
   background-color: #ffffff;
   color: black;
-  text-align: center;
+  justify-content: space-between;
 }
